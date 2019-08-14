@@ -1,0 +1,12 @@
+{
+  "app": "hello-world",
+  "description": "arc hello world",
+  "http": [
+    {
+      "get": "/"
+    },
+    {
+      "get": "/foo"
+    }
+  ]
+}
