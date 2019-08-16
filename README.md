@@ -1,6 +1,4 @@
-# Sandbox failure test
-
-## First part 
+# Sandbox POST request bug test
 
 Run:
 
@@ -8,24 +6,6 @@ Run:
 
 `npx sandbox`
 
-Does the sandbox start?
+Fill in the form.
 
-## Second part
-
-Open `arc.json`. Change the file contents to 
-
-```json
-{
-  "app": "hello-world",
-  "description": "arc hello world",
-  "http": [
-    {
-      "get": "/"
-    }
-  ]
-}
-```
-
-Ie, removing the second route. Retry `npx sandbox`  
-
-Does the sandbox start?
+Does the POST request respond?

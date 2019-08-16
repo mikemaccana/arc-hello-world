@@ -6,7 +6,7 @@
       "get": "/"
     },
     {
-      "get": "/foo"
+      "post": "/form"
     }
   ]
 }
